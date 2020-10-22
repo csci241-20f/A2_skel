@@ -79,7 +79,7 @@ public class AVL {
     remove(root, w);
   }
 
-  /* remove v from the tree rooted at n */
+  /* remove w from the tree rooted at n */
   private void remove(Node n, String w) {
     return; // (enhancement TODO - do the base assignment first)
   }

@@ -26,7 +26,7 @@ public class Unique {
               System.out.println(avlUnique(sc));
             }
         } catch (FileNotFoundException exc) {
-            System.out.println("Could not find file " + args[0]);
+            System.out.println("Could not find file " + args[1]);
         }
     }
 

@@ -216,6 +216,7 @@ public class AVLTest {
 
     check(a);
     a.leftRotate(a.search("x"));
+    check(a);
     treeEquals(a, "r y x v", "r v x y", "v x y r");
   }
 
@@ -259,6 +260,7 @@ public class AVLTest {
 
     check(a);
     a.rightRotate(a.search("y"));
+    check(a);
     treeEquals(a, "r x y z", "r x y z", "z y x r");
   }
 
@@ -274,6 +276,7 @@ public class AVLTest {
     check(a);
 
     a.rightRotate(a.search("y"));
+    check(a);
     treeEquals(a, "a v y x z", "a v x y z", "x z y v a");
   }
 
